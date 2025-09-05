@@ -1,0 +1,56 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background-color: rgb(255, 159, 202);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main {
+display: flex;
+flex-direction: column; 
+gap: 32px;
+
+}
+h1 {font-size: 128px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.destaque{
+    background-color: rgb(186, 0, 62);
+    color: rgb(0, 0, 0);
+    padding: 6px 30px;
+    transition: 1s;
+
+}
+
+.destaque:hover{
+    padding: 6px 80px;
+    background-color: rgb(255, 213, 226);
+    
+}
+
+.social-container img {
+ width: 80px;
+ height: 80px;
+
+}
+
+.social-container {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
